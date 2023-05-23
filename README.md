@@ -23,10 +23,17 @@ Before running this project, ensure that you have the following installed:
     ```bash
     yarn install
 
-4. Start the application:
+4. Set up the environment variables:
+    a. Create a .env file in the project root directory.
+    b. Define the following variables in the .env file:
+        ```bash
+        PORT=4000
+        MONGODB_URI=mongodb://localhost:27017/your-database-name
+
+5. Start the application:
     ```bash
     yarn start
 
-5. Test the application:
+6. Test the application:
     ```bash
     yarn test
