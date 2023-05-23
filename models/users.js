@@ -34,7 +34,7 @@ const usersSchema = new mongoose.Schema({
         validate: {
             validator: function (value) {
                 if (value) {
-                    const fileExtensionRegex = /\.(png|jpg)$/i;
+                    const fileExtensionRegex = /\.(png|jpg|jpeg)$/i;
                     return fileExtensionRegex.test(value);
                 } else {
                     return true
