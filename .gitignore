@@ -1,0 +1,26 @@
+# Node.js / Express
+node_modules/
+npm-debug.log
+.env
+
+# Build output
+build/
+dist/
+*.min.js
+
+# Testing
+coverage/
+
+# Logs
+logs/
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
